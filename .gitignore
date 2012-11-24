@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # git ignore file
 *.suo
 *.dll
 *.exe
+=======
+# git ignore file
+>>>>>>> f24b696943c2d65b20dc75cac39e94acb96fc612
