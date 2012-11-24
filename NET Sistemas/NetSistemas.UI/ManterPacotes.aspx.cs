@@ -80,10 +80,22 @@ namespace NET_Sistemas
             txtNome.Text = "";
             txtDescricao.Text = "";
             txtValor.Text = "";
+            txtNome.Focus();
         }
 
         protected void btnCancelar_Click(object sender, EventArgs e)
         {
+            pacoteDTO = new PacotesDTO();
+            txtIdPacote.Value = String.Empty;
+            txtNome.Text = "";
+            txtDescricao.Text = "";
+            txtValor.Text = "";
+            txtNome.Focus();
+            
+
+
+
+
 
         }
 
@@ -95,6 +107,7 @@ namespace NET_Sistemas
                 pacoteCT = new PacotesCT();
                 pacoteDTO = new PacotesDTO();
                 txtIdPacote.Value = e.CommandArgument.ToString();
+                pacoteDTO.Identificador = Convert.ToInt32(e.CommandArgument.ToString());
                 DataTable dtPacotes = pacoteCT.SelecionarPorFiltro(pacoteDTO);
 
                 if (dtPacotes.Rows.Count > 0)
@@ -103,7 +116,8 @@ namespace NET_Sistemas
                     pacoteDTO.Identificador = Convert.ToInt32(drCliente["IDPACOTES"].ToString());
                     txtNome.Text = drCliente["NOMEPACOTE"].ToString();
                     txtDescricao.Text = drCliente["DESCPACOTE"].ToString();
-                    txtValor.Text = drCliente["VALORPACOTE"].ToString();
+                    decimal valor = Convert.ToDecimal(drCliente["VALORPACOTE"].ToString());
+                    txtValor.Text = valor.ToString("N2");
 
                 }
             }
