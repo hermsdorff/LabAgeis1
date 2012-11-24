@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Cliente.aspx" />
+    <Content Include="ManterPacotes.aspx" />
     <Content Include="Venda.aspx" />
     <Content Include="Account\ChangePassword.aspx" />
     <Content Include="Account\ChangePasswordSuccess.aspx" />
@@ -80,6 +81,13 @@
     </Compile>
     <Compile Include="Cliente.aspx.designer.cs">
       <DependentUpon>Cliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManterPacotes.aspx.cs">
+      <DependentUpon>ManterPacotes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManterPacotes.aspx.designer.cs">
+      <DependentUpon>ManterPacotes.aspx</DependentUpon>
     </Compile>
     <Compile Include="Venda.aspx.cs">
       <DependentUpon>Venda.aspx</DependentUpon>
