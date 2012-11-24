@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Venda" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true"
+﻿<%@ Page Title="Cliente" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true"
     CodeBehind="Cliente.aspx.cs" Inherits="NET_Sistemas.Cliente" %>
 
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
