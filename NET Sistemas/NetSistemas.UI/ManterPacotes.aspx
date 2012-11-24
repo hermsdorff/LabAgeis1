@@ -8,7 +8,7 @@
     <asp:Label ID="Label1" runat="server" Text="Nome:"></asp:Label>
 </td>
 <td>
-    <asp:TextBox ID="txtNome" runat="server" Width="400px"></asp:TextBox>
+    <asp:TextBox ID="txtNome" runat="server" Width="400px" MaxLength="45"></asp:TextBox>
 </td>
 </tr>
 
@@ -19,7 +19,7 @@
 
 <td>
     <asp:TextBox ID="txtDescricao" runat="server" Width="400px" Height="100px" 
-        TextMode="MultiLine"></asp:TextBox>
+        TextMode="MultiLine" MaxLength="45"></asp:TextBox>
 </td>
 </tr>
 
