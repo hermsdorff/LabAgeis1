@@ -84,6 +84,7 @@
     </Compile>
     <Compile Include="ManterPacotes.aspx.cs">
       <DependentUpon>ManterPacotes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ManterPacotes.aspx.designer.cs">
       <DependentUpon>ManterPacotes.aspx</DependentUpon>
