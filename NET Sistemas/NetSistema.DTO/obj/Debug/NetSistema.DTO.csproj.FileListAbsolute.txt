@@ -8,3 +8,8 @@ D:\Projetos\Trabalho Final\NET Sistemas\NetSistema.DTO\bin\Debug\NetSistema.DTO.
 D:\Projetos\Trabalho Final\NET Sistemas\NetSistema.DTO\obj\Debug\ResolveAssemblyReference.cache
 D:\Projetos\Trabalho Final\NET Sistemas\NetSistema.DTO\obj\Debug\NetSistema.DTO.dll
 D:\Projetos\Trabalho Final\NET Sistemas\NetSistema.DTO\obj\Debug\NetSistema.DTO.pdb
+C:\Users\Consuelo\Google Drive\UNA\LabEngAgil\Trabalho Final\NET Sistemas\NetSistema.DTO\bin\Debug\NetSistema.DTO.dll
+C:\Users\Consuelo\Google Drive\UNA\LabEngAgil\Trabalho Final\NET Sistemas\NetSistema.DTO\bin\Debug\NetSistema.DTO.pdb
+C:\Users\Consuelo\Google Drive\UNA\LabEngAgil\Trabalho Final\NET Sistemas\NetSistema.DTO\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Consuelo\Google Drive\UNA\LabEngAgil\Trabalho Final\NET Sistemas\NetSistema.DTO\obj\Debug\NetSistema.DTO.dll
+C:\Users\Consuelo\Google Drive\UNA\LabEngAgil\Trabalho Final\NET Sistemas\NetSistema.DTO\obj\Debug\NetSistema.DTO.pdb
