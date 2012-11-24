@@ -25,7 +25,7 @@
 
 <tr>
 <td>
-    <asp:Label ID="Label3" runat="server" Text="Valor::"></asp:Label>
+    <asp:Label ID="Label3" runat="server" Text="Valor:"></asp:Label>
 </td>
 
 <td>
@@ -34,12 +34,34 @@
 </tr>
 <tr>
 <td>
-    <asp:Button ID="Button1" runat="server" Text="Salvar" onclick="Button1_Click" />
+    <asp:Button ID="btnSalvar" runat="server" Text="Salvar" onclick="Button1_Click" 
+        Width="55px" />
 </td>
 <td>
-    <asp:Button ID="Button2" runat="server" Text="Cancelar" />
+    <asp:Button ID="btnNovo" runat="server" Text="Novo" Width="80px" onclick="btnNovo_Click"/>
+&nbsp;&nbsp;
+    <asp:Button ID="btnCancelar" runat="server" Text="Cancelar" 
+        onclick="btnCancelar_Click" />
 </td>
 </tr>
 
 </table>
+        <asp:HiddenField ID="txtIdPacote" runat="server" />
+    <p>
+                <asp:GridView ID="grvPacote" runat="server" AutoGenerateColumns="False" 
+                    onrowcommand="grvPacote_RowCommand">
+                    <Columns>
+                        <asp:BoundField DataField="NOMEPACOTE" HeaderText="Nome" />
+                        <asp:BoundField DataField="DESCPACOTE" HeaderText="Descrição" />
+                        <asp:BoundField DataField="VALORPACOTE" HeaderText="Valor" />
+                        <asp:TemplateField HeaderText="Ação">
+                            <ItemTemplate>
+                                <asp:Button ID="btnEditar" runat="server" Text="Editar" CommandName="editar" CommandArgument='<%# DataBinder.Eval(Container.DataItem, "IDPACOTES") %>' />
+                                <asp:Button ID="btnExcluir" runat="server" Text="Excluir" CommandName="excluir" CommandArgument='<%# DataBinder.Eval(Container.DataItem, "IDPACOTES") %>' OnClientClick="return confirm('Deseja realmente excluir este registro?')" />
+                            </ItemTemplate>
+                        </asp:TemplateField>
+                    </Columns>
+                </asp:GridView>
+        <br />
+    </p>
 </asp:Content>

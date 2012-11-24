@@ -6,6 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using NetSistema.Controller;
 using NetSistema.DTO;
+using System.Data;
 
 namespace NET_Sistemas
 {
@@ -22,7 +23,18 @@ namespace NET_Sistemas
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!Page.IsPostBack)
+            {
+                FillClientes();
+            }
+        }
 
+        public void FillClientes()
+        {
+            pacoteCT = new PacotesCT();
+            DataTable dtPacote = pacoteCT.SelecionarPorFiltro(new PacotesDTO());
+            grvPacote.DataSource = dtPacote;
+            grvPacote.DataBind();
         }
 
         protected void Button1_Click(object sender, EventArgs e)
@@ -38,9 +50,20 @@ namespace NET_Sistemas
                 pacoteDTO.DescPacote = txtDescricao.Text;
                 pacoteDTO.ValorPacote = Convert.ToDecimal(txtValor.Text);
 
-                if (pacoteCT.Insere(pacoteDTO))
+                if (!String.IsNullOrEmpty(txtIdPacote.Value))
+                {
+                    pacoteDTO.Identificador = Convert.ToInt32(txtIdPacote.Value);
+                    if (pacoteCT.Altera(pacoteDTO))
+                    {
+                        ScriptManager.RegisterStartupScript(this, this.GetType(), "Aviso", "alert('Pacote Alterado com Sucesso!!!')", true);
+                        Response.Redirect("~/ManterPacotes.aspx");
+                    }
+                }
+
+                else if (pacoteCT.Insere(pacoteDTO))
                 {
                     ScriptManager.RegisterStartupScript(this, this.GetType(), "Aviso", "alert('Pacote Inserido com Sucesso!!!')", true);
+                    Response.Redirect("~/ManterPacotes.aspx");
                 }
             }
             catch (Exception ex)
@@ -51,6 +74,63 @@ namespace NET_Sistemas
 
 
         }
+
+        protected void btnNovo_Click(object sender, EventArgs e)
+        {
+            txtNome.Text = "";
+            txtDescricao.Text = "";
+            txtValor.Text = "";
+        }
+
+        protected void btnCancelar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
+        protected void grvPacote_RowCommand(object sender, GridViewCommandEventArgs e)
+        {
+            if (e.CommandName == "editar")
+            {
+                pacoteCT = new PacotesCT();
+                pacoteDTO = new PacotesDTO();
+                txtIdPacote.Value = e.CommandArgument.ToString();
+                DataTable dtPacotes = pacoteCT.SelecionarPorFiltro(pacoteDTO);
+
+                if (dtPacotes.Rows.Count > 0)
+                {
+                    DataRow drCliente = dtPacotes.Rows[0];
+                    pacoteDTO.Identificador = Convert.ToInt32(drCliente["IDPACOTES"].ToString());
+                    txtNome.Text = drCliente["NOMEPACOTE"].ToString();
+                    txtDescricao.Text = drCliente["DESCPACOTE"].ToString();
+                    txtValor.Text = drCliente["VALORPACOTE"].ToString();
+
+                }
+            }
+            else if (e.CommandName == "excluir")
+            {   
+                pacoteCT = new PacotesCT();
+                pacoteDTO = new PacotesDTO();
+                pacoteDTO.Identificador = Convert.ToInt32(e.CommandArgument);
+
+                try
+                {
+
+                    if (pacoteCT.Excluir(pacoteDTO))
+                    {
+                        ScriptManager.RegisterStartupScript(this, this.GetType(), "Aviso", "alert('Pacote Excluido com Sucesso!!!')", true);
+                        Response.Redirect("~/ManterPacotes.aspx");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    ScriptManager.RegisterStartupScript(this, this.GetType(), "Aviso", "alert('Erro ao Excluir o Pacote:\n" + ex.Message + "')", true);
+                }
+
+                
+            }
+        }
+
 
         #endregion
 
@@ -98,6 +178,7 @@ namespace NET_Sistemas
         }
 
         #endregion
+
 
     }
 }
