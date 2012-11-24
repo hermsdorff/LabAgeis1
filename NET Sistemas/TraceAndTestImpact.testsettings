@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestSettings name="Trace and Test Impact" id="46dbda48-3e39-42e5-9687-cbabde091aca" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Description>These are test settings for Trace and Test Impact.</Description>
+  <Execution>
+    <TestTypeSpecific />
+    <AgentRule name="Execution Agents">
+    </AgentRule>
+  </Execution>
+</TestSettings>

@@ -1,0 +1,5 @@
+C:\Users\Consuelo\Google Drive\UNA\LabEngAgil\Trabalho Final\NET Sistemas\Testes\bin\Debug\Testes.dll
+C:\Users\Consuelo\Google Drive\UNA\LabEngAgil\Trabalho Final\NET Sistemas\Testes\bin\Debug\Testes.pdb
+C:\Users\Consuelo\Google Drive\UNA\LabEngAgil\Trabalho Final\NET Sistemas\Testes\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Consuelo\Google Drive\UNA\LabEngAgil\Trabalho Final\NET Sistemas\Testes\obj\Debug\Testes.dll
+C:\Users\Consuelo\Google Drive\UNA\LabEngAgil\Trabalho Final\NET Sistemas\Testes\obj\Debug\Testes.pdb
