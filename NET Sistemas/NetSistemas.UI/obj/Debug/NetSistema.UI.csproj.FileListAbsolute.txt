@@ -5,18 +5,6 @@ D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Fina
 D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NET Sistemas\obj\Debug\ResolveAssemblyReference.cache
 D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NET Sistemas\obj\Debug\NET Sistemas.dll
 D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NET Sistemas\obj\Debug\NET Sistemas.pdb
-D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NetSistemas.UI\bin\NET Sistemas.dll
-D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NetSistemas.UI\bin\NET Sistemas.pdb
-D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NetSistemas.UI\obj\Debug\ResolveAssemblyReference.cache
-D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NetSistemas.UI\obj\Debug\NET Sistemas.dll
-D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NetSistemas.UI\obj\Debug\NET Sistemas.pdb
-D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NetSistemas.UI\bin\NetSistema.Controller.dll
-D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NetSistemas.UI\bin\NetSistema.DTO.dll
-D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NetSistemas.UI\bin\NET_DAO.dll
-D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NetSistemas.UI\bin\AttPsFw.Utils.Exceptions.dll
-D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NetSistemas.UI\bin\NetSistema.Controller.pdb
-D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NetSistemas.UI\bin\NetSistema.DTO.pdb
-D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NetSistemas.UI\bin\NET_DAO.pdb
 D:\Projetos\Trabalho Final\NET Sistemas\NetSistemas.UI\bin\NET Sistemas.dll
 D:\Projetos\Trabalho Final\NET Sistemas\NetSistemas.UI\bin\NET Sistemas.pdb
 D:\Projetos\Trabalho Final\NET Sistemas\NetSistemas.UI\bin\NetSistema.Controller.dll

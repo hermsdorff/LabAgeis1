@@ -18,6 +18,8 @@ namespace NET_Sistemas
             {
                 FillClientes();
                 FillPacotes();
+                FillPedidos();
+                SetBoundsDate();
             }
         }
 
@@ -40,15 +42,30 @@ namespace NET_Sistemas
             ddlPacote.DataBind();
         }
 
+        public void FillPedidos()
+        {
+            VendaCT vendaCT = new VendaCT();
+            DataTable dtVendas = vendaCT.SelecionarPorFiltro(new VendaDTO());
+            grvPedidos.DataSource = dtVendas;
+            grvPedidos.DataBind();
+        }
+
+        private void SetBoundsDate()
+        {
+            this.RangeValidator1.MinimumValue = DateTime.Today.AddDays(1).ToString("dd/MM/yyyy");
+            this.RangeValidator1.MaximumValue = DateTime.Today.AddYears(1).ToString("dd/MM/yyyy");
+        }
+
         protected void btnSalvar_Click(object sender, EventArgs e)
         {
 
             VendaDTO vendaDTO = new VendaDTO();
             vendaDTO.IdCliente = Convert.ToInt32(ddlCliente.SelectedValue);
             vendaDTO.IdPacote = Convert.ToInt32(ddlPacote.SelectedValue);
-            vendaDTO.DataVencimentoFatura = Convert.ToDateTime(txtVencimento.Text);
+            vendaDTO.DataVencimentoFatura = ValidarData();
             vendaDTO.Status = ddlStatus.SelectedValue.Substring(0,1);
-            vendaDTO.Observacao = txtVencimento.Text;
+            vendaDTO.Observacao = txtObservacao.Text;
+            vendaDTO.DataVenda = DateTime.Now;
 
             PacotesCT pacoteCT = new PacotesCT();
             PacotesDTO pacoteDTO = new PacotesDTO();
@@ -58,23 +75,100 @@ namespace NET_Sistemas
             vendaDTO.ValorVenda = Convert.ToDecimal(dtPacotes.Rows[0]["VALORPACOTE"]);
 
             VendaCT vendaCT = new VendaCT();
-
-            try
+                        try
             {
-                vendaCT.Insere(vendaDTO);
-                ScriptManager.RegisterStartupScript(this, this.GetType(), "aviso", "Salvo com sucesso.", true);
+                if (HiddenFieldCliente.Value == "")
+                {
+                    vendaCT.Insere(vendaDTO);
+                }
+                else
+                {
+                    vendaDTO.Identificador = Convert.ToInt32(HiddenFieldCliente.Value);
+                    vendaCT.Altera(vendaDTO);
+                }
+                LimparCampos();
+                FillPedidos();
+                ScriptManager.RegisterStartupScript(this, this.GetType(), "aviso", "alert('Salvo com sucesso.');", true);
             }
             catch (Exception erro)
             {
-                ScriptManager.RegisterStartupScript(this, this.GetType(), "aviso", "Erro: " + erro.Message, true);
+                ScriptManager.RegisterStartupScript(this, this.GetType(), "aviso", "alert('Erro: " + erro.Message + "');", true);
             }
             
         }
 
+        private DateTime ValidarData()
+        {
+            DateTime dataVencimento = new DateTime();
+            try
+            { 
+                dataVencimento = Convert.ToDateTime(txtVencimento.Text);
+            }
+            catch (FormatException ex)
+            { 
+                ScriptManager.RegisterStartupScript(this, this.GetType(), "aviso", "alert('Data Inválida, selecione outra data!');", true);
+            }
+
+            return dataVencimento;
+        }
+
         protected void btnNovo_Click(object sender, EventArgs e)
         {
-
+            LimparCampos();
         }
+
+        public void LimparCampos()
+        {
+            HiddenFieldCliente.Value = "";
+            ddlCliente.SelectedIndex = 0;
+            ddlPacote.SelectedIndex = 0;
+            txtVencimento.Text = "";
+            ddlStatus.SelectedIndex = 0;
+            txtObservacao.Text = "";
+        }
+
+        protected void grvPedidos_RowCommand(object sender, GridViewCommandEventArgs e)
+        {
+            if (e.CommandName == "editar")
+            {
+                VendaCT vendaCT = new VendaCT();
+                VendaDTO vendaDTO = new VendaDTO();
+                vendaDTO.Identificador = Convert.ToInt32(e.CommandArgument);
+                DataTable dtVenda = vendaCT.SelecionarPorFiltro(vendaDTO);
+
+                if (dtVenda.Rows.Count > 0)
+                {
+                    DataRow drVenda = dtVenda.Rows[0];
+                    this.HiddenFieldCliente.Value = drVenda["IDVENDA"].ToString();
+                    this.ddlCliente.SelectedValue = drVenda["IDCLIENTE"].ToString();
+                    this.ddlPacote.SelectedValue = drVenda["IDPACOTE"].ToString();
+                    this.txtVencimento.Text = Convert.ToDateTime(drVenda["DATAVENCIMENTOFATURA"]).ToString("dd/MM/yyyy");
+                    this.txtObservacao.Text = drVenda["OBSERVACAO"].ToString();
+                    this.ddlStatus.SelectedValue = drVenda["STATUS"].ToString();
+                }
+            }
+            else if (e.CommandName == "excluir")
+            {
+                VendaCT vendaCT = new VendaCT();
+                VendaDTO vendaDTO = new VendaDTO();
+                vendaDTO.Identificador = Convert.ToInt32(e.CommandArgument);
+
+                try
+                {
+                    vendaCT.Excluir(vendaDTO);
+                    FillPedidos();
+                    LimparCampos();
+                    ScriptManager.RegisterStartupScript(this, this.GetType(), "aviso", "alert('Excluido com sucesso.');", true);
+                }
+                catch (Exception erro)
+                {
+                    ScriptManager.RegisterStartupScript(this, this.GetType(), "aviso", "alert('Erro: " + erro.Message + "');", true);
+                }
+
+            }
+        }
+
+
 
     }
 }
