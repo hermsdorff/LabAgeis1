@@ -163,7 +163,7 @@
     <p>
         &nbsp;<asp:Button ID="btnSalvar" runat="server" Text="Salvar" 
             onclick="btnSalvar_Click" />
-&nbsp;<asp:Button ID="btnNovo" runat="server" Text="Novo" onclick="btnNovo_Click" />
+&nbsp;<asp:Button ID="btnNovo" runat="server" Text="Novo" onclick="btnNovo_Click" CausesValidation="false" />
         <asp:HiddenField ID="txtidcliente" runat="server" />
     </p>
     <p>
@@ -175,8 +175,8 @@
                         <asp:BoundField DataField="TIPOPESSOA" HeaderText="TIPOPESSOA" />
                         <asp:TemplateField HeaderText="Ação">
                             <ItemTemplate>
-                                <asp:Button ID="btnEditar" runat="server" Text="Editar" CommandName="editar" CommandArgument='<%# DataBinder.Eval(Container.DataItem, "IdCliente") %>' />
-                                <asp:Button ID="btnExcluir" runat="server" Text="Excluir" CommandName="excluir" CommandArgument='<%# DataBinder.Eval(Container.DataItem, "IdCliente") %>' OnClientClick="return confirm('Deseja realmente excluir este registro?')" />
+                                <asp:Button ID="btnEditar" runat="server" Text="Editar" CommandName="editar" CommandArgument='<%# DataBinder.Eval(Container.DataItem, "IdCliente") %>' CausesValidation="false" />
+                                <asp:Button ID="btnExcluir" runat="server" Text="Excluir" CommandName="excluir" CommandArgument='<%# DataBinder.Eval(Container.DataItem, "IdCliente") %>' OnClientClick="return confirm('Deseja realmente excluir este registro?')" CausesValidation="false" />
                             </ItemTemplate>
                         </asp:TemplateField>
                     </Columns>
