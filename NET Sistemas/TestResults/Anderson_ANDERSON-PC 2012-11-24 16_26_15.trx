@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="5b4ac63c-c37a-45d9-b2a7-f511dba4fc87" name="Anderson@ANDERSON-PC 2012-11-24 16:26:15" runUser="Anderson-PC\Anderson" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="123ace43-75b3-4165-9917-4aec668fa513">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Anderson_ANDERSON-PC 2012-11-24 16_26_15">
+      <DeploymentItem filename="D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NetSistema.DAO\bin\Debug\NET_DAO.dll" />
+      <DeploymentItem filename="D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NetSistemas.UI\bin\NET Sistemas.dll" />
+      <DeploymentItem filename="D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NetSistema.DTO\bin\Debug\NetSistema.DTO.dll" />
+      <DeploymentItem filename="D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NetSistema.Controller\bin\Debug\NetSistema.Controller.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-11-24T16:26:15.7819132-02:00" queuing="2012-11-24T16:26:15.8131133-02:00" start="2012-11-24T16:26:15.8443133-02:00" finish="2012-11-24T16:26:16.1875139-02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="4" executed="4" passed="3" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="InsercaoPacote" storage="d:\aulas de pos-graduação\thiago - laboratorio de praticas ageis\trabalho final\net sistemas\testprojectnetsistemas\bin\debug\testprojectnetsistemas.dll" id="9b10258f-bd57-f911-774b-a976f9b293c5">
+      <Execution id="302f1c31-fc35-4753-ba3c-e6e46db76fcb" />
+      <TestMethod codeBase="D:/Aulas de Pos-Graduação/Thiago - Laboratorio de Praticas Ageis/Trabalho Final/NET Sistemas/TestProjectNetSistemas/bin/Debug/TestProjectNetSistemas.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProjectNetSistemas.UnitTest1, TestProjectNetSistemas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InsercaoPacote" />
+    </UnitTest>
+    <UnitTest name="ConversaoValorPacote" storage="d:\aulas de pos-graduação\thiago - laboratorio de praticas ageis\trabalho final\net sistemas\testprojectnetsistemas\bin\debug\testprojectnetsistemas.dll" id="f5ebb23d-d35a-edc8-b613-cb7d94a936da">
+      <Execution id="53686354-0787-4fc5-9d40-6fe1cafa2c7a" />
+      <TestMethod codeBase="D:/Aulas de Pos-Graduação/Thiago - Laboratorio de Praticas Ageis/Trabalho Final/NET Sistemas/TestProjectNetSistemas/bin/Debug/TestProjectNetSistemas.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProjectNetSistemas.UnitTest1, TestProjectNetSistemas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConversaoValorPacote" />
+    </UnitTest>
+    <UnitTest name="TesteQuantidadeDeCaracteres" storage="d:\aulas de pos-graduação\thiago - laboratorio de praticas ageis\trabalho final\net sistemas\testprojectnetsistemas\bin\debug\testprojectnetsistemas.dll" id="96c43102-3bbf-924a-51c4-b75a0dca7d2d">
+      <Execution id="2a876abc-966b-4428-aea2-5ff462ed0aec" />
+      <TestMethod codeBase="D:/Aulas de Pos-Graduação/Thiago - Laboratorio de Praticas Ageis/Trabalho Final/NET Sistemas/TestProjectNetSistemas/bin/Debug/TestProjectNetSistemas.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProjectNetSistemas.UnitTest1, TestProjectNetSistemas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TesteQuantidadeDeCaracteres" />
+    </UnitTest>
+    <UnitTest name="InsercaoDePacoteValido" storage="d:\aulas de pos-graduação\thiago - laboratorio de praticas ageis\trabalho final\net sistemas\testprojectnetsistemas\bin\debug\testprojectnetsistemas.dll" id="72a8e321-1312-1611-c2cb-7ecd7b855205">
+      <Execution id="c9db550b-81c3-4385-a24a-9e35dc35541a" />
+      <TestMethod codeBase="D:/Aulas de Pos-Graduação/Thiago - Laboratorio de Praticas Ageis/Trabalho Final/NET Sistemas/TestProjectNetSistemas/bin/Debug/TestProjectNetSistemas.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProjectNetSistemas.UnitTest1, TestProjectNetSistemas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InsercaoDePacoteValido" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="72a8e321-1312-1611-c2cb-7ecd7b855205" executionId="c9db550b-81c3-4385-a24a-9e35dc35541a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="96c43102-3bbf-924a-51c4-b75a0dca7d2d" executionId="2a876abc-966b-4428-aea2-5ff462ed0aec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9b10258f-bd57-f911-774b-a976f9b293c5" executionId="302f1c31-fc35-4753-ba3c-e6e46db76fcb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f5ebb23d-d35a-edc8-b613-cb7d94a936da" executionId="53686354-0787-4fc5-9d40-6fe1cafa2c7a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="c9db550b-81c3-4385-a24a-9e35dc35541a" testId="72a8e321-1312-1611-c2cb-7ecd7b855205" testName="InsercaoDePacoteValido" computerName="ANDERSON-PC" duration="00:00:00.0368202" startTime="2012-11-24T16:26:15.8443133-02:00" endTime="2012-11-24T16:26:16.1095138-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c9db550b-81c3-4385-a24a-9e35dc35541a">
+    </UnitTestResult>
+    <UnitTestResult executionId="2a876abc-966b-4428-aea2-5ff462ed0aec" testId="96c43102-3bbf-924a-51c4-b75a0dca7d2d" testName="TesteQuantidadeDeCaracteres" computerName="ANDERSON-PC" duration="00:00:00.0047446" startTime="2012-11-24T16:26:16.1251138-02:00" endTime="2012-11-24T16:26:16.1251138-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2a876abc-966b-4428-aea2-5ff462ed0aec">
+    </UnitTestResult>
+    <UnitTestResult executionId="302f1c31-fc35-4753-ba3c-e6e46db76fcb" testId="9b10258f-bd57-f911-774b-a976f9b293c5" testName="InsercaoPacote" computerName="ANDERSON-PC" duration="00:00:00.0223461" startTime="2012-11-24T16:26:16.1407138-02:00" endTime="2012-11-24T16:26:16.1563139-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="302f1c31-fc35-4753-ba3c-e6e46db76fcb">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProjectNetSistemas.UnitTest1.InsercaoPacote did not throw expected exception MySql.Data.MySqlClient.MySqlException.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="53686354-0787-4fc5-9d40-6fe1cafa2c7a" testId="f5ebb23d-d35a-edc8-b613-cb7d94a936da" testName="ConversaoValorPacote" computerName="ANDERSON-PC" duration="00:00:00.0008957" startTime="2012-11-24T16:26:16.1719139-02:00" endTime="2012-11-24T16:26:16.1719139-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="53686354-0787-4fc5-9d40-6fe1cafa2c7a">
+    </UnitTestResult>
+  </Results>
+</TestRun>

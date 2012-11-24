@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ea92cb18-03e8-4ee4-8e27-cab1b9b188f1" name="Anderson@ANDERSON-PC 2012-11-24 16:21:51" runUser="Anderson-PC\Anderson" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="123ace43-75b3-4165-9917-4aec668fa513">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Anderson_ANDERSON-PC 2012-11-24 16_21_51">
+      <DeploymentItem filename="D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NetSistema.DAO\bin\Debug\NET_DAO.dll" />
+      <DeploymentItem filename="D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NetSistemas.UI\bin\NET Sistemas.dll" />
+      <DeploymentItem filename="D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NetSistema.DTO\bin\Debug\NetSistema.DTO.dll" />
+      <DeploymentItem filename="D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NetSistema.Controller\bin\Debug\NetSistema.Controller.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-11-24T16:21:51.4320939-02:00" queuing="2012-11-24T16:21:51.4476939-02:00" start="2012-11-24T16:21:51.4788940-02:00" finish="2012-11-24T16:21:51.7752945-02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="InsercaoPacote" storage="d:\aulas de pos-graduação\thiago - laboratorio de praticas ageis\trabalho final\net sistemas\testprojectnetsistemas\bin\debug\testprojectnetsistemas.dll" id="9b10258f-bd57-f911-774b-a976f9b293c5">
+      <Execution id="81a039ee-46aa-4b60-84c7-24c62eb194f4" />
+      <TestMethod codeBase="D:/Aulas de Pos-Graduação/Thiago - Laboratorio de Praticas Ageis/Trabalho Final/NET Sistemas/TestProjectNetSistemas/bin/Debug/TestProjectNetSistemas.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProjectNetSistemas.UnitTest1, TestProjectNetSistemas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InsercaoPacote" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="9b10258f-bd57-f911-774b-a976f9b293c5" executionId="81a039ee-46aa-4b60-84c7-24c62eb194f4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="81a039ee-46aa-4b60-84c7-24c62eb194f4" testId="9b10258f-bd57-f911-774b-a976f9b293c5" testName="InsercaoPacote" computerName="ANDERSON-PC" duration="00:00:00.0647788" startTime="2012-11-24T16:21:51.5100940-02:00" endTime="2012-11-24T16:21:51.7596945-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="81a039ee-46aa-4b60-84c7-24c62eb194f4">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProjectNetSistemas.UnitTest1.InsercaoPacote did not throw expected exception System.Exception.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
