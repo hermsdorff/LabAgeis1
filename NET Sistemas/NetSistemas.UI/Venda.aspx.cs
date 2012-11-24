@@ -65,6 +65,7 @@ namespace NET_Sistemas
             vendaDTO.DataVencimentoFatura = ValidarData();
             vendaDTO.Status = ddlStatus.SelectedValue.Substring(0,1);
             vendaDTO.Observacao = txtObservacao.Text;
+            vendaDTO.DataVenda = DateTime.Now;
 
             PacotesCT pacoteCT = new PacotesCT();
             PacotesDTO pacoteDTO = new PacotesDTO();
@@ -74,10 +75,17 @@ namespace NET_Sistemas
             vendaDTO.ValorVenda = Convert.ToDecimal(dtPacotes.Rows[0]["VALORPACOTE"]);
 
             VendaCT vendaCT = new VendaCT();
-
-            try
+                        try
             {
-                vendaCT.Insere(vendaDTO);
+                if (HiddenFieldCliente.Value == "")
+                {
+                    vendaCT.Insere(vendaDTO);
+                }
+                else
+                {
+                    vendaDTO.Identificador = Convert.ToInt32(HiddenFieldCliente.Value);
+                    vendaCT.Altera(vendaDTO);
+                }
                 LimparCampos();
                 FillPedidos();
                 ScriptManager.RegisterStartupScript(this, this.GetType(), "aviso", "alert('Salvo com sucesso.');", true);
@@ -111,7 +119,12 @@ namespace NET_Sistemas
 
         public void LimparCampos()
         {
-
+            HiddenFieldCliente.Value = "";
+            ddlCliente.SelectedIndex = 0;
+            ddlPacote.SelectedIndex = 0;
+            txtVencimento.Text = "";
+            ddlStatus.SelectedIndex = 0;
+            txtObservacao.Text = "";
         }
 
         protected void grvPedidos_RowCommand(object sender, GridViewCommandEventArgs e)
@@ -129,7 +142,7 @@ namespace NET_Sistemas
                     this.HiddenFieldCliente.Value = drVenda["IDVENDA"].ToString();
                     this.ddlCliente.SelectedValue = drVenda["IDCLIENTE"].ToString();
                     this.ddlPacote.SelectedValue = drVenda["IDPACOTE"].ToString();
-                    this.txtVencimento.Text = drVenda["DATAVENDA"].ToString();
+                    this.txtVencimento.Text = Convert.ToDateTime(drVenda["DATAVENCIMENTOFATURA"]).ToString("dd/MM/yyyy");
                     this.txtObservacao.Text = drVenda["OBSERVACAO"].ToString();
                     this.ddlStatus.SelectedValue = drVenda["STATUS"].ToString();
                 }

@@ -1,5 +1,5 @@
-D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NetSistema.DTO\bin\Debug\NetSistema.DTO.dll
-D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NetSistema.DTO\bin\Debug\NetSistema.DTO.pdb
-D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NetSistema.DTO\obj\Debug\ResolveAssemblyReference.cache
-D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NetSistema.DTO\obj\Debug\NetSistema.DTO.dll
-D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NetSistema.DTO\obj\Debug\NetSistema.DTO.pdb
+D:\Projetos\Trabalho Final\NET Sistemas\NetSistema.DTO\bin\Debug\NetSistema.DTO.dll
+D:\Projetos\Trabalho Final\NET Sistemas\NetSistema.DTO\bin\Debug\NetSistema.DTO.pdb
+D:\Projetos\Trabalho Final\NET Sistemas\NetSistema.DTO\obj\Debug\ResolveAssemblyReference.cache
+D:\Projetos\Trabalho Final\NET Sistemas\NetSistema.DTO\obj\Debug\NetSistema.DTO.dll
+D:\Projetos\Trabalho Final\NET Sistemas\NetSistema.DTO\obj\Debug\NetSistema.DTO.pdb

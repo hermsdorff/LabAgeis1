@@ -48,7 +48,8 @@
                         <asp:BoundField HeaderText="Cliente" DataField="NOMECLIENTE" />
                         <asp:BoundField HeaderText="Pacote" DataField="NOMEPACOTE" />
                         <asp:BoundField HeaderText="Valor" DataField="VALORVENDA" />
-                        <asp:BoundField HeaderText="Vencimento" DataField="DATAVENCIMENTOFATURA" />
+                        <asp:BoundField HeaderText="Vencimento" DataField="DATAVENCIMENTOFATURA" 
+                            DataFormatString="{0:d}" />
                         <asp:TemplateField HeaderText="Ação">
                             <ItemTemplate>
                                 <asp:Button ID="btnEditar" runat="server" Text="Editar" CommandName="editar" CommandArgument='<%# DataBinder.Eval(Container.DataItem, "idVenda") %>' CausesValidation="false" />
@@ -75,7 +76,8 @@
             <td class="style7">
                 <asp:TextBox ID="txtVencimento" runat="server"></asp:TextBox>
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" 
-                    ControlToValidate="txtVencimento" ErrorMessage="*" ForeColor="Red"></asp:RequiredFieldValidator>
+                    ControlToValidate="txtVencimento" 
+                    ErrorMessage="Campo vencimento requerido" ForeColor="Red">*</asp:RequiredFieldValidator>
                 <asp:RangeValidator ID="RangeValidator1" runat="server" 
                     ControlToValidate="txtVencimento" 
                     ErrorMessage="Data Inválida! A data tem que ser maior que hoje e no máximo daqui a um ano!" 
@@ -97,12 +99,15 @@
         <tr>
             <td class="style3" colspan="2">
                 Observação:<br />
-                <asp:TextBox ID="txtObservacao" runat="server" Height="96px" 
-                    TextMode="MultiLine" Width="198px"></asp:TextBox>
+                <asp:TextBox ID="txtObservacao" runat="server" Height="112px" 
+                    TextMode="MultiLine" Width="254px"></asp:TextBox>
                 <asp:HiddenField ID="HiddenFieldCliente" runat="server" />
             </td>
         </tr>
         </table>
+    <asp:ValidationSummary ID="ValidationSummary1" runat="server" />
+    <p>
+    </p>
     <p>
         &nbsp;<asp:Button ID="btnSalvar" runat="server" Text="Salvar" 
             onclick="btnSalvar_Click" />
