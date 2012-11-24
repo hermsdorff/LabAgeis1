@@ -62,16 +62,22 @@ namespace NET_Sistemas
             try
             {
                 vendaCT.Insere(vendaDTO);
-                ScriptManager.RegisterStartupScript(this, this.GetType(), "aviso", "Salvo com sucesso.", true);
+                LimparCampos();
+                ScriptManager.RegisterStartupScript(this, this.GetType(), "aviso", "alert('Salvo com sucesso.');", true);
             }
             catch (Exception erro)
             {
-                ScriptManager.RegisterStartupScript(this, this.GetType(), "aviso", "Erro: " + erro.Message, true);
+                ScriptManager.RegisterStartupScript(this, this.GetType(), "aviso", "alert('Erro: " + erro.Message + "');", true);
             }
             
         }
 
         protected void btnNovo_Click(object sender, EventArgs e)
+        {
+            LimparCampos();
+        }
+
+        public void LimparCampos()
         {
 
         }
