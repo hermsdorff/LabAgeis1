@@ -1,5 +1,0 @@
-D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NET_CT\bin\Debug\NET_CT.dll
-D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NET_CT\bin\Debug\NET_CT.pdb
-D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NET_CT\obj\Debug\ResolveAssemblyReference.cache
-D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NET_CT\obj\Debug\NET_CT.dll
-D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NET_CT\obj\Debug\NET_CT.pdb
