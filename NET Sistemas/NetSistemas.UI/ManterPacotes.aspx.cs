@@ -37,13 +37,18 @@ namespace NET_Sistemas
             grvPacote.DataBind();
         }
 
-        protected void Button1_Click(object sender, EventArgs e)
+        protected void btnSalvar_Click(object sender, EventArgs e)
+        {
+            Salvar();
+        }
+
+        private void Salvar()
         {
             if (!CriteriosValidos())
             {
                 return;
             }
-            
+
             try
             {
                 pacoteDTO.NomePacote = txtNome.Text;
@@ -68,23 +73,36 @@ namespace NET_Sistemas
             }
             catch (Exception ex)
             {
-                ScriptManager.RegisterStartupScript(this, this.GetType(), "Aviso", "alert('Erro ao Inserir o Pacote:\n"+ex.Message+"')", true);
+                ScriptManager.RegisterStartupScript(this, this.GetType(), "Aviso", "alert('Erro ao Inserir o Pacote:\n" + ex.Message + "')", true);
             }
-
-
-
         }
 
         protected void btnNovo_Click(object sender, EventArgs e)
         {
+            Novo();
+        }
+
+        private void Novo()
+        {
             txtNome.Text = "";
             txtDescricao.Text = "";
             txtValor.Text = "";
+            txtNome.Focus();
         }
 
         protected void btnCancelar_Click(object sender, EventArgs e)
         {
+            Cancelar();
+        }
 
+        private void Cancelar()
+        {
+            pacoteDTO = new PacotesDTO();
+            txtIdPacote.Value = String.Empty;
+            txtNome.Text = "";
+            txtDescricao.Text = "";
+            txtValor.Text = "";
+            txtNome.Focus();
         }
 
 
@@ -95,6 +113,7 @@ namespace NET_Sistemas
                 pacoteCT = new PacotesCT();
                 pacoteDTO = new PacotesDTO();
                 txtIdPacote.Value = e.CommandArgument.ToString();
+                pacoteDTO.Identificador = Convert.ToInt32(e.CommandArgument.ToString());
                 DataTable dtPacotes = pacoteCT.SelecionarPorFiltro(pacoteDTO);
 
                 if (dtPacotes.Rows.Count > 0)
@@ -103,7 +122,8 @@ namespace NET_Sistemas
                     pacoteDTO.Identificador = Convert.ToInt32(drCliente["IDPACOTES"].ToString());
                     txtNome.Text = drCliente["NOMEPACOTE"].ToString();
                     txtDescricao.Text = drCliente["DESCPACOTE"].ToString();
-                    txtValor.Text = drCliente["VALORPACOTE"].ToString();
+                    decimal valor = Convert.ToDecimal(drCliente["VALORPACOTE"].ToString());
+                    txtValor.Text = valor.ToString("N2");
 
                 }
             }
