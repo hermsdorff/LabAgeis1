@@ -16,10 +16,6 @@
     {
         width: 148px;
     }
-        .style10
-        {
-            width: 29px;
-        }
         .style11
         {
             width: 540px;
@@ -75,7 +71,7 @@
             <td class="style4">
                 Número:</td>
             <td class="style11">
-                <asp:TextBox ID="txtNumero" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtNumero" runat="server">0</asp:TextBox>
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" 
                     ControlToValidate="txtNumero" ErrorMessage="*" ForeColor="Red"></asp:RequiredFieldValidator>
             </td>

@@ -56,7 +56,7 @@ namespace NetSistema.DAO
 
                 vSQLCommand.AppendLine(" FROM VENDA");
      
-                vSQLCommand.AppendFormat(" WHERE (1=1) idVenda ");
+                vSQLCommand.AppendFormat(" WHERE (1=1) ");
 	            
                 if (pVendaDTO.Identificador!= default(int))
                     {
@@ -150,17 +150,22 @@ namespace NetSistema.DAO
                 vSQLCommand.AppendLine(" SELECT                    ");
 
 	            vSQLCommand.AppendLine(" IDVENDA,");
-	            vSQLCommand.AppendLine(" IDCLIENTE,");
-	            vSQLCommand.AppendLine(" IDPACOTE,");
+	            vSQLCommand.AppendLine(" VENDA.IDCLIENTE,");
+	            vSQLCommand.AppendLine(" VENDA.IDPACOTE,");
 	            vSQLCommand.AppendLine(" DATAVENDA,");
 	            vSQLCommand.AppendLine(" DATAVENCIMENTOFATURA,");
 	            vSQLCommand.AppendLine(" VALORVENDA,");
 	            vSQLCommand.AppendLine(" STATUS,");
-	            vSQLCommand.AppendLine(" OBSERVACAO");
+	            vSQLCommand.AppendLine(" OBSERVACAO,");
+                vSQLCommand.AppendLine(" CLIENTE.NOME AS NOMECLIENTE,");
+                vSQLCommand.AppendLine(" PACOTES.NOMEPACOTE");
 
-                vSQLCommand.AppendLine(" FROM VENDA");
+                vSQLCommand.AppendLine(" FROM VENDA ");
+
+                vSQLCommand.AppendLine(" INNER JOIN CLIENTE ON CLIENTE.IDCLIENTE = VENDA.IDCLIENTE ");
+                vSQLCommand.AppendLine(" INNER JOIN PACOTES ON PACOTES.IDPACOTES = VENDA.IDPACOTE ");
      
-                vSQLCommand.AppendFormat(" WHERE (1=1) idVenda ");
+                vSQLCommand.AppendFormat(" WHERE (1=1) ");
 	            
                 if (pVendaDTO.Identificador!= default(int))
                     {

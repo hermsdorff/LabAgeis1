@@ -39,16 +39,22 @@
         <asp:DropDownList runat="server" ID="ddlCliente">
         </asp:DropDownList>
             &nbsp;<asp:Button ID="btnNovoCliente" runat="server" Text="Incluir +" 
-                    onclick="btnNovo_Click" />
+                    onclick="btnNovo_Click" CausesValidation="False" />
             </td>
             <td rowspan="5" valign="top" class="style6">
-                <asp:GridView ID="grvPedidos" runat="server" AutoGenerateColumns="False">
+                <asp:GridView ID="grvPedidos" runat="server" AutoGenerateColumns="False" 
+                    onrowcommand="grvPedidos_RowCommand">
                     <Columns>
-                        <asp:BoundField />
-                        <asp:BoundField />
-                        <asp:BoundField />
-                        <asp:BoundField />
-                        <asp:TemplateField HeaderText="Ação"></asp:TemplateField>
+                        <asp:BoundField HeaderText="Cliente" DataField="NOMECLIENTE" />
+                        <asp:BoundField HeaderText="Pacote" DataField="NOMEPACOTE" />
+                        <asp:BoundField HeaderText="Valor" DataField="VALORVENDA" />
+                        <asp:BoundField HeaderText="Vencimento" DataField="DATAVENCIMENTOFATURA" />
+                        <asp:TemplateField HeaderText="Ação">
+                            <ItemTemplate>
+                                <asp:Button ID="btnEditar" runat="server" Text="Editar" CommandName="editar" CommandArgument='<%# DataBinder.Eval(Container.DataItem, "idVenda") %>' CausesValidation="false" />
+                                <asp:Button ID="btnExcluir" runat="server" Text="Excluir" CommandName="excluir" CommandArgument='<%# DataBinder.Eval(Container.DataItem, "idVenda") %>' OnClientClick="return confirm('Deseja realmente excluir este registro?')" CausesValidation="false" />
+                            </ItemTemplate>
+                        </asp:TemplateField>
                     </Columns>
                 </asp:GridView>
             </td>
@@ -68,6 +74,14 @@
             </td>
             <td class="style7">
                 <asp:TextBox ID="txtVencimento" runat="server"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" 
+                    ControlToValidate="txtVencimento" ErrorMessage="*" ForeColor="Red"></asp:RequiredFieldValidator>
+                <asp:RangeValidator ID="RangeValidator1" runat="server" 
+                    ControlToValidate="txtVencimento" 
+                    ErrorMessage="Data Inválida! A data tem que ser maior que hoje e no máximo daqui a um ano!" 
+                    ForeColor="#990000" 
+                    ToolTip="Data Inválida! A data tem que ser maior que hoje e no máximo daqui a um ano!" 
+                    Type="Date">*</asp:RangeValidator>
             </td>
         </tr>
         <tr>
@@ -85,13 +99,15 @@
                 Observação:<br />
                 <asp:TextBox ID="txtObservacao" runat="server" Height="96px" 
                     TextMode="MultiLine" Width="198px"></asp:TextBox>
+                <asp:HiddenField ID="HiddenFieldCliente" runat="server" />
             </td>
         </tr>
         </table>
     <p>
         &nbsp;<asp:Button ID="btnSalvar" runat="server" Text="Salvar" 
             onclick="btnSalvar_Click" />
-&nbsp;<asp:Button ID="btnNovo" runat="server" Text="Novo" onclick="btnNovo_Click" />
+&nbsp;<asp:Button ID="btnNovo" runat="server" Text="Novo" onclick="btnNovo_Click" 
+            CausesValidation="False" />
         <br />
     </p>
 </asp:Content>
