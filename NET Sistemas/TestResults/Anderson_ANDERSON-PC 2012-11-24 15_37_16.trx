@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9b4d0ad9-5772-44f9-a358-d6c493911446" name="Anderson@ANDERSON-PC 2012-11-24 15:37:16" runUser="Anderson-PC\Anderson" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="123ace43-75b3-4165-9917-4aec668fa513">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Anderson_ANDERSON-PC 2012-11-24 15_37_16">
+      <DeploymentItem filename="D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NetSistema.DAO\bin\Debug\NET_DAO.dll" />
+      <DeploymentItem filename="D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NetSistemas.UI\bin\NET Sistemas.dll" />
+      <DeploymentItem filename="D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NetSistema.DTO\bin\Debug\NetSistema.DTO.dll" />
+      <DeploymentItem filename="D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NetSistema.Controller\bin\Debug\NetSistema.Controller.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-11-24T15:37:16.0933146-02:00" queuing="2012-11-24T15:37:19.0573198-02:00" start="2012-11-24T15:37:19.3537203-02:00" finish="2012-11-24T15:37:33.0973445-02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="AlteraTestPacotes" storage="d:\aulas de pos-graduação\thiago - laboratorio de praticas ageis\trabalho final\net sistemas\testprojectnetsistemas\bin\debug\testprojectnetsistemas.dll" id="27f583b8-3354-efdc-82d7-0d73b9f72d58">
+      <Execution id="0474e3e4-12d3-44ca-ae44-a97071f545f0" />
+      <TestMethod codeBase="D:/Aulas de Pos-Graduação/Thiago - Laboratorio de Praticas Ageis/Trabalho Final/NET Sistemas/TestProjectNetSistemas/bin/Debug/TestProjectNetSistemas.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProjectNetSistemas.PacotesCTPacotes, TestProjectNetSistemas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AlteraTestPacotes" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="27f583b8-3354-efdc-82d7-0d73b9f72d58" executionId="0474e3e4-12d3-44ca-ae44-a97071f545f0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="0474e3e4-12d3-44ca-ae44-a97071f545f0" testId="27f583b8-3354-efdc-82d7-0d73b9f72d58" testName="AlteraTestPacotes" computerName="ANDERSON-PC" duration="00:00:12.2912284" startTime="2012-11-24T15:37:19.5409207-02:00" endTime="2012-11-24T15:37:32.8945441-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0474e3e4-12d3-44ca-ae44-a97071f545f0">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProjectNetSistemas.PacotesCTPacotes.AlteraTestPacotes threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at NetSistema.Controller.PacotesCT.Altera(PacotesDTO pPacotesDTO) in D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NetSistema.Controller\PacotesCT.cs:line 77
+   at TestProjectNetSistemas.PacotesCTPacotes.AlteraTestPacotes() in D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\TestProjectNetSistemas\PacotesCTTestPacotes.cs:line 89
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
