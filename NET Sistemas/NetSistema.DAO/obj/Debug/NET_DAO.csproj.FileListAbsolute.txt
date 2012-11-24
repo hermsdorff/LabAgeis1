@@ -1,0 +1,5 @@
+D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NET_DAO\bin\Debug\NET_DAO.dll
+D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NET_DAO\bin\Debug\NET_DAO.pdb
+D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NET_DAO\obj\Debug\ResolveAssemblyReference.cache
+D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NET_DAO\obj\Debug\NET_DAO.dll
+D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NET_DAO\obj\Debug\NET_DAO.pdb
