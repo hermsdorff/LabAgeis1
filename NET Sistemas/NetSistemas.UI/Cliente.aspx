@@ -37,6 +37,8 @@
                 Nome:</td>
             <td class="style7">
                 <asp:TextBox ID="txtNome" runat="server"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" 
+                    ControlToValidate="txtNome" ErrorMessage="*" ForeColor="Red"></asp:RequiredFieldValidator>
             </td>
             <td class="style4">
                 Tipo:</td>
@@ -53,6 +55,8 @@
             </td>
             <td class="style7">
                 <asp:TextBox ID="txtCPFCNPJ" runat="server"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" 
+                    ControlToValidate="txtCPFCNPJ" ErrorMessage="*" ForeColor="Red"></asp:RequiredFieldValidator>
             </td>
             <td class="style4">
                 &nbsp;</td>
@@ -65,11 +69,15 @@
             </td>
             <td class="style7">
                 <asp:TextBox ID="txtLogradouro" runat="server"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" 
+                    ControlToValidate="txtLogradouro" ErrorMessage="*" ForeColor="Red"></asp:RequiredFieldValidator>
             </td>
             <td class="style4">
                 Número:</td>
             <td class="style11">
                 <asp:TextBox ID="txtNumero" runat="server"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" 
+                    ControlToValidate="txtNumero" ErrorMessage="*" ForeColor="Red"></asp:RequiredFieldValidator>
             </td>
         </tr>
         <tr>
@@ -77,6 +85,8 @@
                 Bairro:</td>
             <td class="style7">
                 <asp:TextBox ID="txtBairro" runat="server"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" 
+                    ControlToValidate="txtBairro" ErrorMessage="*" ForeColor="Red"></asp:RequiredFieldValidator>
             </td>
             <td class="style4">
                 Complemento:</td>
@@ -89,6 +99,8 @@
                 CEP:</td>
             <td class="style7">
                 <asp:TextBox ID="txtCEP" runat="server"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" 
+                    ControlToValidate="txtCEP" ErrorMessage="*" ForeColor="Red"></asp:RequiredFieldValidator>
             </td>
             <td class="style4">
                 &nbsp;</td>
@@ -100,6 +112,8 @@
                 Cidade:</td>
             <td class="style7">
                 <asp:TextBox ID="txtCidade" runat="server"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" 
+                    ControlToValidate="txtCidade" ErrorMessage="*" ForeColor="Red"></asp:RequiredFieldValidator>
             </td>
             <td class="style4">
                 &nbsp;</td>
