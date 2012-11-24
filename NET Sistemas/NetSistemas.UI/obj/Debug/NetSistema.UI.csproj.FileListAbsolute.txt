@@ -17,15 +17,3 @@ D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Fina
 D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NetSistemas.UI\bin\NetSistema.Controller.pdb
 D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NetSistemas.UI\bin\NetSistema.DTO.pdb
 D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NetSistemas.UI\bin\NET_DAO.pdb
-D:\Projetos\Trabalho Final\NET Sistemas\NetSistemas.UI\bin\NET Sistemas.dll
-D:\Projetos\Trabalho Final\NET Sistemas\NetSistemas.UI\bin\NET Sistemas.pdb
-D:\Projetos\Trabalho Final\NET Sistemas\NetSistemas.UI\bin\NetSistema.Controller.dll
-D:\Projetos\Trabalho Final\NET Sistemas\NetSistemas.UI\bin\NetSistema.DTO.dll
-D:\Projetos\Trabalho Final\NET Sistemas\NetSistemas.UI\bin\NET_DAO.dll
-D:\Projetos\Trabalho Final\NET Sistemas\NetSistemas.UI\bin\AttPsFw.Utils.Exceptions.dll
-D:\Projetos\Trabalho Final\NET Sistemas\NetSistemas.UI\bin\NetSistema.Controller.pdb
-D:\Projetos\Trabalho Final\NET Sistemas\NetSistemas.UI\bin\NetSistema.DTO.pdb
-D:\Projetos\Trabalho Final\NET Sistemas\NetSistemas.UI\bin\NET_DAO.pdb
-D:\Projetos\Trabalho Final\NET Sistemas\NetSistemas.UI\obj\Debug\ResolveAssemblyReference.cache
-D:\Projetos\Trabalho Final\NET Sistemas\NetSistemas.UI\obj\Debug\NET Sistemas.dll
-D:\Projetos\Trabalho Final\NET Sistemas\NetSistemas.UI\obj\Debug\NET Sistemas.pdb

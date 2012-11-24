@@ -11,11 +11,3 @@ D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Fina
 D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NetSistema.DAO\bin\Debug\AttPsFw.Utils.Exceptions.dll
 D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NetSistema.DAO\bin\Debug\NetSistema.DTO.dll
 D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NetSistema.DAO\bin\Debug\NetSistema.DTO.pdb
-D:\Projetos\Trabalho Final\NET Sistemas\NetSistema.DAO\bin\Debug\NET_DAO.dll
-D:\Projetos\Trabalho Final\NET Sistemas\NetSistema.DAO\bin\Debug\NET_DAO.pdb
-D:\Projetos\Trabalho Final\NET Sistemas\NetSistema.DAO\bin\Debug\AttPsFw.Utils.Exceptions.dll
-D:\Projetos\Trabalho Final\NET Sistemas\NetSistema.DAO\bin\Debug\NetSistema.DTO.dll
-D:\Projetos\Trabalho Final\NET Sistemas\NetSistema.DAO\bin\Debug\NetSistema.DTO.pdb
-D:\Projetos\Trabalho Final\NET Sistemas\NetSistema.DAO\obj\Debug\ResolveAssemblyReference.cache
-D:\Projetos\Trabalho Final\NET Sistemas\NetSistema.DAO\obj\Debug\NET_DAO.dll
-D:\Projetos\Trabalho Final\NET Sistemas\NetSistema.DAO\obj\Debug\NET_DAO.pdb
