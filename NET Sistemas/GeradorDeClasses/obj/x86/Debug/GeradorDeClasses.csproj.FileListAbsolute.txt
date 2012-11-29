@@ -61,13 +61,3 @@ C:\Users\Anderson\Desktop\Pacote Financys\Financys\GeradorDeClasses\obj\x86\Debu
 G:\Trabalho Final\NET Sistemas\GeradorDeClasses\bin\Debug\GeradorDeClasses.exe.config
 G:\Trabalho Final\NET Sistemas\GeradorDeClasses\obj\x86\Debug\GeradorDeClasses.exe
 G:\Trabalho Final\NET Sistemas\GeradorDeClasses\obj\x86\Debug\GeradorDeClasses.pdb
-D:\Projetos\Trabalho Final\NET Sistemas\GeradorDeClasses\bin\Debug\GeradorDeClasses.exe.config
-D:\Projetos\Trabalho Final\NET Sistemas\GeradorDeClasses\bin\Debug\GeradorDeClasses.exe
-D:\Projetos\Trabalho Final\NET Sistemas\GeradorDeClasses\bin\Debug\GeradorDeClasses.pdb
-D:\Projetos\Trabalho Final\NET Sistemas\GeradorDeClasses\obj\x86\Debug\ResolveAssemblyReference.cache
-D:\Projetos\Trabalho Final\NET Sistemas\GeradorDeClasses\obj\x86\Debug\GeradorDeClasses.Form1.resources
-D:\Projetos\Trabalho Final\NET Sistemas\GeradorDeClasses\obj\x86\Debug\GeradorDeClasses.Properties.Resources.resources
-D:\Projetos\Trabalho Final\NET Sistemas\GeradorDeClasses\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
-D:\Projetos\Trabalho Final\NET Sistemas\GeradorDeClasses\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
-D:\Projetos\Trabalho Final\NET Sistemas\GeradorDeClasses\obj\x86\Debug\GeradorDeClasses.exe
-D:\Projetos\Trabalho Final\NET Sistemas\GeradorDeClasses\obj\x86\Debug\GeradorDeClasses.pdb
