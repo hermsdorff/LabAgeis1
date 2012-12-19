@@ -73,6 +73,7 @@ namespace TestProjectNetSistemas
             pacotesDTO.ValorPacote = Convert.ToDecimal("teste valor");
         }
 
+
         [TestMethod]
         [ExpectedException(typeof(MySqlException))]
         public void TesteQuantidadeDeCaracteres()

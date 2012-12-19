@@ -61,6 +61,7 @@ C:\Users\Anderson\Desktop\Pacote Financys\Financys\GeradorDeClasses\obj\x86\Debu
 G:\Trabalho Final\NET Sistemas\GeradorDeClasses\bin\Debug\GeradorDeClasses.exe.config
 G:\Trabalho Final\NET Sistemas\GeradorDeClasses\obj\x86\Debug\GeradorDeClasses.exe
 G:\Trabalho Final\NET Sistemas\GeradorDeClasses\obj\x86\Debug\GeradorDeClasses.pdb
+<<<<<<< HEAD
 D:\Projetos\Trabalho Final\NET Sistemas\GeradorDeClasses\bin\Debug\GeradorDeClasses.exe.config
 D:\Projetos\Trabalho Final\NET Sistemas\GeradorDeClasses\bin\Debug\GeradorDeClasses.exe
 D:\Projetos\Trabalho Final\NET Sistemas\GeradorDeClasses\bin\Debug\GeradorDeClasses.pdb
@@ -81,3 +82,5 @@ D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Fina
 D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\GeradorDeClasses\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
 D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\GeradorDeClasses\obj\x86\Debug\GeradorDeClasses.exe
 D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\GeradorDeClasses\obj\x86\Debug\GeradorDeClasses.pdb
+=======
+>>>>>>> 249eb936e36afbe1884f1d73921116887a3c8fc7

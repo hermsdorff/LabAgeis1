@@ -3,6 +3,7 @@ D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Fina
 D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NET_CT\obj\Debug\NET_CT.pdb
 D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NET_CT\bin\Debug\NET_CT.dll
 D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NET_CT\bin\Debug\NET_CT.pdb
+<<<<<<< HEAD
 D:\Projetos\Trabalho Final\NET Sistemas\NetSistema.Controller\bin\Debug\NetSistema.Controller.dll
 D:\Projetos\Trabalho Final\NET Sistemas\NetSistema.Controller\bin\Debug\NetSistema.Controller.pdb
 D:\Projetos\Trabalho Final\NET Sistemas\NetSistema.Controller\bin\Debug\NetSistema.DTO.dll
@@ -33,3 +34,5 @@ C:\Users\Consuelo\Google Drive\UNA\LabEngAgil\Trabalho Final\NET Sistemas\NetSis
 C:\Users\Consuelo\Google Drive\UNA\LabEngAgil\Trabalho Final\NET Sistemas\NetSistema.Controller\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Consuelo\Google Drive\UNA\LabEngAgil\Trabalho Final\NET Sistemas\NetSistema.Controller\obj\Debug\NetSistema.Controller.dll
 C:\Users\Consuelo\Google Drive\UNA\LabEngAgil\Trabalho Final\NET Sistemas\NetSistema.Controller\obj\Debug\NetSistema.Controller.pdb
+=======
+>>>>>>> 249eb936e36afbe1884f1d73921116887a3c8fc7

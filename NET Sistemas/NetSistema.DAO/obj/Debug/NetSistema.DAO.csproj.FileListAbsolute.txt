@@ -3,6 +3,7 @@ D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Fina
 D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NET_DAO\obj\Debug\ResolveAssemblyReference.cache
 D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NET_DAO\obj\Debug\NET_DAO.dll
 D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NET_DAO\obj\Debug\NET_DAO.pdb
+<<<<<<< HEAD
 D:\Projetos\Trabalho Final\NET Sistemas\NetSistema.DAO\bin\Debug\NET_DAO.dll
 D:\Projetos\Trabalho Final\NET Sistemas\NetSistema.DAO\bin\Debug\NET_DAO.pdb
 D:\Projetos\Trabalho Final\NET Sistemas\NetSistema.DAO\bin\Debug\AttPsFw.Utils.Exceptions.dll
@@ -27,3 +28,5 @@ C:\Users\Consuelo\Google Drive\UNA\LabEngAgil\Trabalho Final\NET Sistemas\NetSis
 C:\Users\Consuelo\Google Drive\UNA\LabEngAgil\Trabalho Final\NET Sistemas\NetSistema.DAO\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Consuelo\Google Drive\UNA\LabEngAgil\Trabalho Final\NET Sistemas\NetSistema.DAO\obj\Debug\NET_DAO.dll
 C:\Users\Consuelo\Google Drive\UNA\LabEngAgil\Trabalho Final\NET Sistemas\NetSistema.DAO\obj\Debug\NET_DAO.pdb
+=======
+>>>>>>> 249eb936e36afbe1884f1d73921116887a3c8fc7
