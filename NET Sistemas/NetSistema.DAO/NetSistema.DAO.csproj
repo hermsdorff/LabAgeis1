@@ -47,7 +47,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FuncionarioDAO.cs" />
+    <Compile Include="HorarioDAO.cs" />
     <Compile Include="CriaConnectionString.cs" />
+    <Compile Include="AgendamentoDAO.cs" />
     <Compile Include="PacotesDAO.cs" />
     <Compile Include="VendaDAO.cs" />
     <Compile Include="ClienteDAO.cs" />

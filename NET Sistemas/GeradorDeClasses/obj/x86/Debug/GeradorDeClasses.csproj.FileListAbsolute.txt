@@ -71,3 +71,13 @@ D:\Projetos\Trabalho Final\NET Sistemas\GeradorDeClasses\obj\x86\Debug\GenerateR
 D:\Projetos\Trabalho Final\NET Sistemas\GeradorDeClasses\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
 D:\Projetos\Trabalho Final\NET Sistemas\GeradorDeClasses\obj\x86\Debug\GeradorDeClasses.exe
 D:\Projetos\Trabalho Final\NET Sistemas\GeradorDeClasses\obj\x86\Debug\GeradorDeClasses.pdb
+D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\GeradorDeClasses\bin\Debug\GeradorDeClasses.exe.config
+D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\GeradorDeClasses\bin\Debug\GeradorDeClasses.exe
+D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\GeradorDeClasses\bin\Debug\GeradorDeClasses.pdb
+D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\GeradorDeClasses\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\GeradorDeClasses\obj\x86\Debug\GeradorDeClasses.Form1.resources
+D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\GeradorDeClasses\obj\x86\Debug\GeradorDeClasses.Properties.Resources.resources
+D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\GeradorDeClasses\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\GeradorDeClasses\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\GeradorDeClasses\obj\x86\Debug\GeradorDeClasses.exe
+D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\GeradorDeClasses\obj\x86\Debug\GeradorDeClasses.pdb

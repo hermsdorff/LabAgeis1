@@ -35,7 +35,7 @@
                         <asp:MenuItem NavigateUrl="~/Cliente.aspx" Text="Cliente" Value="Cliente"/>
                         <asp:MenuItem NavigateUrl="~/ManterPacotes.aspx" Text="Pacote" Value="Pacote">
                         </asp:MenuItem>
-                        <asp:MenuItem NavigateUrl="~/Venda.aspx" Text="Pedidos" Value="About">
+                        <asp:MenuItem NavigateUrl="~/Venda.aspx" Text="Venda" Value="About">
                         </asp:MenuItem>
                     </Items>
                 </asp:Menu>
@@ -53,3 +53,4 @@
     </form>
 </body>
 </html>
+ 

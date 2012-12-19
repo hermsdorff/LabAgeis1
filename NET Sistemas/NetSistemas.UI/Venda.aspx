@@ -42,23 +42,7 @@
                     onclick="btnNovo_Click" CausesValidation="False" />
             </td>
             <td rowspan="5" valign="top" class="style6">
-                <asp:GridView ID="grvPedidos" runat="server" AutoGenerateColumns="False" 
-                    onrowcommand="grvPedidos_RowCommand">
-                    <Columns>
-                        <asp:BoundField HeaderText="Cliente" DataField="NOMECLIENTE" />
-                        <asp:BoundField HeaderText="Pacote" DataField="NOMEPACOTE" />
-                        <asp:BoundField HeaderText="Valor" DataField="VALORVENDA" />
-                        <asp:BoundField HeaderText="Vencimento" DataField="DATAVENCIMENTOFATURA" 
-                            DataFormatString="{0:d}" />
-                        <asp:TemplateField HeaderText="Ação">
-                            <ItemTemplate>
-                                <asp:Button ID="btnEditar" runat="server" Text="Editar" CommandName="editar" CommandArgument='<%# DataBinder.Eval(Container.DataItem, "idVenda") %>' CausesValidation="false" />
-                                <asp:Button ID="btnExcluir" runat="server" Text="Excluir" CommandName="excluir" CommandArgument='<%# DataBinder.Eval(Container.DataItem, "idVenda") %>' OnClientClick="return confirm('Deseja realmente excluir este registro?')" CausesValidation="false" />
-                            </ItemTemplate>
-                        </asp:TemplateField>
-                    </Columns>
-                </asp:GridView>
-            </td>
+                &nbsp;</td>
         </tr>
         <tr>
             <td class="style4">
@@ -107,12 +91,26 @@
         </table>
     <asp:ValidationSummary ID="ValidationSummary1" runat="server" />
     <p>
-    </p>
-    <p>
         &nbsp;<asp:Button ID="btnSalvar" runat="server" Text="Salvar" 
             onclick="btnSalvar_Click" />
 &nbsp;<asp:Button ID="btnNovo" runat="server" Text="Novo" onclick="btnNovo_Click" 
             CausesValidation="False" />
+                <asp:GridView ID="grvPedidos" runat="server" AutoGenerateColumns="False" 
+                    onrowcommand="grvPedidos_RowCommand">
+                    <Columns>
+                        <asp:BoundField HeaderText="Cliente" DataField="NOMECLIENTE" />
+                        <asp:BoundField HeaderText="Pacote" DataField="NOMEPACOTE" />
+                        <asp:BoundField HeaderText="Valor" DataField="VALORVENDA" />
+                        <asp:BoundField HeaderText="Vencimento" DataField="DATAVENCIMENTOFATURA" 
+                            DataFormatString="{0:d}" />
+                        <asp:TemplateField HeaderText="Ação">
+                            <ItemTemplate>
+                                <asp:Button ID="btnEditar" runat="server" Text="Editar" CommandName="editar" CommandArgument='<%# DataBinder.Eval(Container.DataItem, "idVenda") %>' CausesValidation="false" />
+                                <asp:Button ID="btnExcluir" runat="server" Text="Excluir" CommandName="excluir" CommandArgument='<%# DataBinder.Eval(Container.DataItem, "idVenda") %>' OnClientClick="return confirm('Deseja realmente excluir este registro?')" CausesValidation="false" />
+                            </ItemTemplate>
+                        </asp:TemplateField>
+                    </Columns>
+                </asp:GridView>
         <br />
     </p>
 </asp:Content>

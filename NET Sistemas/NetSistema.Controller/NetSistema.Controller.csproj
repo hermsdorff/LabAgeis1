@@ -40,6 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FuncionarioCT.cs" />
+    <Compile Include="HorarioCT.cs" />
+    <Compile Include="AgendamentoCT.cs" />
     <Compile Include="PacotesCT.cs" />
     <Compile Include="VendaCT.cs" />
     <Compile Include="ClienteCT.cs" />
