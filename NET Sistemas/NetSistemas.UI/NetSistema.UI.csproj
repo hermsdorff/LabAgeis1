@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Cliente.aspx" />
+    <Content Include="ConfirmacaoAgendamento.aspx" />
     <Content Include="ManterPacotes.aspx" />
     <Content Include="SelecionarAgendamento.aspx" />
     <Content Include="Venda.aspx" />
@@ -76,12 +77,24 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Agendamento.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Agendamento.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Cliente.aspx.cs">
       <DependentUpon>Cliente.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Cliente.aspx.designer.cs">
       <DependentUpon>Cliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConfirmacaoAgendamento.aspx.cs">
+      <DependentUpon>ConfirmacaoAgendamento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConfirmacaoAgendamento.aspx.designer.cs">
+      <DependentUpon>ConfirmacaoAgendamento.aspx</DependentUpon>
     </Compile>
     <Compile Include="ManterPacotes.aspx.cs">
       <DependentUpon>ManterPacotes.aspx</DependentUpon>
@@ -167,6 +180,19 @@
       <Project>{9EBCFBA5-4BEA-486B-8C77-FB6CE0108169}</Project>
       <Name>NetSistema.DTO</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Agendamento.xsc">
+      <DependentUpon>Agendamento.xsd</DependentUpon>
+    </None>
+    <None Include="Agendamento.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Agendamento.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Agendamento.xss">
+      <DependentUpon>Agendamento.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

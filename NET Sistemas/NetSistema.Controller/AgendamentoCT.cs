@@ -57,6 +57,18 @@ namespace NetSistema.Controller
             }
         }
 
+        public DataTable SelecionarPorFiltroDataHorario(string data, string idHorario)
+        {
+            try
+            {
+                return AgendamentoDAO.SelecionarPorFiltroDataHorario(data, idHorario);
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+        }
+ 
         public int SelecionarQtdFuncionarios()
         {
             try

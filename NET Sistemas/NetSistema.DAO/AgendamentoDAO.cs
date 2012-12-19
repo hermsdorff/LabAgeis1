@@ -193,7 +193,7 @@ namespace NetSistema.DAO
 
                 StringBuilder vSQLCommand = new StringBuilder();
                 vSQLCommand = new StringBuilder();
-                vSQLCommand.AppendLine(" SELECT  count(idAgendamento)  from agendamento where idhoario = @idhorario and dataagendamento = @dtagendamento  ");
+                vSQLCommand.AppendLine(" SELECT  count(idAgendamento)  from agendamento where idhorario = @idhorario and dataagendamento = @dtagendamento  ");
 
 
                 MySqlCommand com = new MySqlCommand(vSQLCommand.ToString(), Conexao);
@@ -208,6 +208,41 @@ namespace NetSistema.DAO
                 Conexao.Close();
 
                 return dt.Rows.Count;
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+        }
+
+        public DataTable SelecionarPorFiltroDataHorario(string data, string idHorario)
+        {
+            try
+            {
+                DataTable dt = new DataTable();
+                MySqlConnection Conexao = new MySqlConnection(StrCon);
+
+                StringBuilder vSQLCommand = new StringBuilder();
+                vSQLCommand = new StringBuilder();
+                vSQLCommand.AppendLine(" SELECT F.IDFUNCIONARIO, F.NOME FROM " +
+" FUNCIONARIO F " +
+" WHERE F.IDFUNCIONARIO NOT IN " +
+" (SELECT F.IDFUNCIONARIO FROM AGENDAMENTO A " +
+" INNER JOIN FUNCIONARIO F ON A.IDFUNCIONARIO = F.IDFUNCIONARIO " +
+" INNER JOIN HORARIO H ON A.IDHORARIO = H.IDHORARIO " +
+" WHERE A.DATAAGENDAMENTO = @DATA AND A.IDHORARIO = @IDHORARIO)");
+
+                MySqlCommand com = new MySqlCommand(vSQLCommand.ToString(), Conexao);
+
+                com.Parameters.Add(new MySqlParameter("@DATA", data));
+                com.Parameters.Add(new MySqlParameter("@IDHORARIO", idHorario));
+
+                Conexao.Open();
+                dt.Load(com.ExecuteReader());
+                com.ExecuteReader();
+                Conexao.Close();
+
+                return dt;
             }
             catch (Exception e)
             {

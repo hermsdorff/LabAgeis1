@@ -23,3 +23,13 @@ D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Fina
 D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NetSistema.Controller\obj\Debug\ResolveAssemblyReference.cache
 D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NetSistema.Controller\obj\Debug\NetSistema.Controller.dll
 D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\NetSistema.Controller\obj\Debug\NetSistema.Controller.pdb
+C:\Users\Consuelo\Google Drive\UNA\LabEngAgil\Trabalho Final\NET Sistemas\NetSistema.Controller\bin\Debug\NetSistema.Controller.dll
+C:\Users\Consuelo\Google Drive\UNA\LabEngAgil\Trabalho Final\NET Sistemas\NetSistema.Controller\bin\Debug\NetSistema.Controller.pdb
+C:\Users\Consuelo\Google Drive\UNA\LabEngAgil\Trabalho Final\NET Sistemas\NetSistema.Controller\bin\Debug\NetSistema.DTO.dll
+C:\Users\Consuelo\Google Drive\UNA\LabEngAgil\Trabalho Final\NET Sistemas\NetSistema.Controller\bin\Debug\NET_DAO.dll
+C:\Users\Consuelo\Google Drive\UNA\LabEngAgil\Trabalho Final\NET Sistemas\NetSistema.Controller\bin\Debug\AttPsFw.Utils.Exceptions.dll
+C:\Users\Consuelo\Google Drive\UNA\LabEngAgil\Trabalho Final\NET Sistemas\NetSistema.Controller\bin\Debug\NET_DAO.pdb
+C:\Users\Consuelo\Google Drive\UNA\LabEngAgil\Trabalho Final\NET Sistemas\NetSistema.Controller\bin\Debug\NetSistema.DTO.pdb
+C:\Users\Consuelo\Google Drive\UNA\LabEngAgil\Trabalho Final\NET Sistemas\NetSistema.Controller\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Consuelo\Google Drive\UNA\LabEngAgil\Trabalho Final\NET Sistemas\NetSistema.Controller\obj\Debug\NetSistema.Controller.dll
+C:\Users\Consuelo\Google Drive\UNA\LabEngAgil\Trabalho Final\NET Sistemas\NetSistema.Controller\obj\Debug\NetSistema.Controller.pdb
