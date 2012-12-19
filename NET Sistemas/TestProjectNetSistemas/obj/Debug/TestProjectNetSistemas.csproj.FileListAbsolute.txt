@@ -1,0 +1,17 @@
+D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\TestProjectNetSistemas\bin\Debug\TestProjectNetSistemas.dll.config
+D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\TestProjectNetSistemas\bin\Debug\TestProjectNetSistemas.dll
+D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\TestProjectNetSistemas\bin\Debug\TestProjectNetSistemas.pdb
+D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\TestProjectNetSistemas\bin\Debug\NET Sistemas.dll
+D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\TestProjectNetSistemas\bin\Debug\NetSistema.Controller.dll
+D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\TestProjectNetSistemas\bin\Debug\NetSistema.DTO.dll
+D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\TestProjectNetSistemas\bin\Debug\NET_DAO.dll
+D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\TestProjectNetSistemas\bin\Debug\AttPsFw.Utils.Exceptions.dll
+D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\TestProjectNetSistemas\bin\Debug\NetSistema.Controller.pdb
+D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\TestProjectNetSistemas\bin\Debug\NET_DAO.pdb
+D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\TestProjectNetSistemas\bin\Debug\NetSistema.DTO.pdb
+D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\TestProjectNetSistemas\bin\Debug\NET Sistemas.pdb
+D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\TestProjectNetSistemas\bin\Debug\NET Sistemas_Accessor.dll
+D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\TestProjectNetSistemas\bin\Debug\NET Sistemas_Accessor.pdb
+D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\TestProjectNetSistemas\obj\Debug\ResolveAssemblyReference.cache
+D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\TestProjectNetSistemas\obj\Debug\TestProjectNetSistemas.dll
+D:\Aulas de Pos-Graduação\Thiago - Laboratorio de Praticas Ageis\Trabalho Final\NET Sistemas\TestProjectNetSistemas\obj\Debug\TestProjectNetSistemas.pdb
